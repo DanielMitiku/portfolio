@@ -7,8 +7,10 @@ function MainBar() {
   return (
     <div>
       <h1>Hello from MainBar</h1>
-      <ProjectList />
-      <ContactForm />
+      <div>
+        <ProjectList />
+        <ContactForm />
+      </div>
     </div>
   );
 }

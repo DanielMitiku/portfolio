@@ -1,0 +1,12 @@
+.sidebar {
+  margin: 5% 7% 5% 7%;
+  position: fixed; 
+  height: 100%; 
+  z-index: 1; 
+}
+
+/* .sidebarsmall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

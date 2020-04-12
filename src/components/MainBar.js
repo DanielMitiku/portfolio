@@ -6,11 +6,8 @@ import ContactForm from './ContactForm';
 function MainBar() {
   return (
     <div>
-      <h1>Hello from MainBar</h1>
-      <div>
-        <ProjectList />
-        <ContactForm />
-      </div>
+      <ProjectList />
+      <ContactForm />
     </div>
   );
 }

@@ -15,7 +15,8 @@ code {
 }
 
 .sidebar {
-  background-image: linear-gradient(to right, rgb(217, 217, 217) , rgb(204, 218, 212), rgba(255, 255, 255));
+  /* background-image: linear-gradient(to right, rgb(217, 217, 217) , rgb(204, 218, 212), rgba(255, 255, 255)); */
+  color: rebeccapurple;
 }
 
 .mainbar {
@@ -27,3 +28,6 @@ code {
   top: 10%;
 }
 
+.fa-github, .fa-envelope{
+  color: black;
+}

@@ -31,3 +31,12 @@ code {
 .fa-github, .fa-envelope{
   color: black;
 }
+
+@media(min-width:768px){
+  .source-code {
+    text-align: left;
+  }
+  .live-link {
+    text-align: right;
+  }
+}

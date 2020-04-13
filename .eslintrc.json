@@ -20,6 +20,12 @@
       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
       "import/no-unresolved": "off",
       "no-shadow": "off",
-      "arrow-parens": ["error", "as-needed"]
+      "arrow-parens": ["error", "as-needed"],
+      "max-len": "off",
+      "camelcase": "off",
+      "react/prop-types": "off",
+      "jsx-a11y/control-has-associated-label": "off",
+      "import/no-named-as-default-member": "off",
+      "import/no-named-as-default": "off"
     }
   }

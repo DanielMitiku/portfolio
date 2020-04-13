@@ -6,16 +6,43 @@ function About() {
     <div className="col-10 offset-1 my-5">
       <div>
         <h2> About Me</h2>
-        <p>I am Daniel Wesego. I am a Full Stack Developer. I have experience in Ruby on Rails on the backend and React on the frontend. I love developing things. I am passionate learner. If you want to know more about me, please see my <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1d46IP5Kq7RWbZfRiP0zFAHu3aTy0n1oZ/view?usp=sharing" role="button" aria-pressed="true">Resume</a></p>
+        <p>
+          I am Daniel Wesego. I am a Full Stack Developer. I have experience in Ruby on Rails on the backend and React on the frontend. I love developing things. I am passionate learner. If you want to know more about me, please see my
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1d46IP5Kq7RWbZfRiP0zFAHu3aTy0n1oZ/view?usp=sharing" role="button" aria-pressed="true">Resume</a>
+        </p>
       </div>
       <div className="my-5 text-left">
         <h3>Skills</h3>
-        <ul><strong>Languages:</strong> Ruby, Javascript (ES6), HTML, CSS, Python, PHP, Java</ul>
-        <ul><strong>Frameworks:</strong> Ruby on Rails, React, Redux, Bootstrap</ul>
-        <ul><strong>Database:</strong> MySQL, PostgreSQL</ul>
-        <ul><strong>Test:</strong> Jest, RSpec, Capybara</ul>
-        <ul><strong>Version Control:</strong> Git, Github</ul>
-        <ul><strong>Deployment:</strong> Heroku, Bare metal server environment setup, Shared hosting</ul>
+        <ul>
+          <strong>Languages:</strong>
+          {' '}
+          Ruby, Javascript (ES6), HTML, CSS, Python, PHP, Java
+        </ul>
+        <ul>
+          <strong>Frameworks:</strong>
+          {' '}
+          Ruby on Rails, React, Redux, Bootstrap
+        </ul>
+        <ul>
+          <strong>Database:</strong>
+          {' '}
+          MySQL, PostgreSQL
+        </ul>
+        <ul>
+          <strong>Test:</strong>
+          {' '}
+          Jest, RSpec, Capybara
+        </ul>
+        <ul>
+          <strong>Version Control:</strong>
+          {' '}
+          Git, Github
+        </ul>
+        <ul>
+          <strong>Deployment:</strong>
+          {' '}
+          Heroku, Bare metal server environment setup, Shared hosting
+        </ul>
       </div>
       <div className="my-5 text-left">
         <h3>Publications</h3>

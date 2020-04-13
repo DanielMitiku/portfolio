@@ -27,6 +27,7 @@
       "react/prop-types": "off",
       "jsx-a11y/control-has-associated-label": "off",
       "jsx-a11y/label-has-associated-control": "off",
+      "jsx-a11y/label-has-for": "off",
       "import/no-named-as-default-member": "off",
       "import/no-named-as-default": "off"
     }

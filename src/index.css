@@ -54,6 +54,14 @@ code {
   transform: scale(1.5);
 }
 
+a {
+  color: rgb(14, 14, 139);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 @media(min-width:768px){
   .source-code {
     text-align: left;

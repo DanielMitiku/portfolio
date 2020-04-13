@@ -1,4 +1,5 @@
 {
+    "parser": "babel-eslint",
     "env": {
       "browser": true,
       "es6": true
@@ -25,6 +26,7 @@
       "camelcase": "off",
       "react/prop-types": "off",
       "jsx-a11y/control-has-associated-label": "off",
+      "jsx-a11y/label-has-associated-control": "off",
       "import/no-named-as-default-member": "off",
       "import/no-named-as-default": "off"
     }

@@ -3,12 +3,12 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="col-10 offset-1 my-5">
+    <div className="col-10 offset-1 my-5 text-left">
       <div>
         <h2> About Me</h2>
         <p>
           I am Daniel Wesego. I am a Full Stack Developer. I have experience in Ruby on Rails on the backend and React on the frontend. I love developing things. I am passionate learner. If you want to know more about me, please see my
-          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1d46IP5Kq7RWbZfRiP0zFAHu3aTy0n1oZ/view?usp=sharing" role="button" aria-pressed="true">Resume</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1d46IP5Kq7RWbZfRiP0zFAHu3aTy0n1oZ/view?usp=sharing" role="button" aria-pressed="true"> Resume</a>
         </p>
       </div>
       <div className="my-5 text-left">

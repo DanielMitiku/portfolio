@@ -47,8 +47,10 @@ class ContactForm extends React.Component {
     e.preventDefault();
     if (this.validateForm()) {
       this.setState({ ...this, loading: true });
+      const key = process.env.REACT_APP_EMAILJS_KEY;
+      const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
 
-      emailjs.sendForm('gmail', 'template_Yipl3e7D', e.target, 'user_jrwB7E17ognPgubGmS5PW')
+      emailjs.sendForm('gmail', templateID, e.target, key)
         .then(() => {
           this.setState(
             {

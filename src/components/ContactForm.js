@@ -86,7 +86,7 @@ class ContactForm extends React.Component {
         <h2>Contact Me</h2>
         { sent && thankyou }
         { loading && load}
-        <div className="col-8 offset-2">
+        <div className="col-10 offset-1">
           <form onSubmit={this.sendEmail}>
             <input type="hidden" name="contact_number" />
             <div className="form-group text-left my-3">

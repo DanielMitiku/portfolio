@@ -22,7 +22,7 @@ function SideBar() {
           <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1d46IP5Kq7RWbZfRiP0zFAHu3aTy0n1oZ/view?usp=sharing" className="my-2 btn btn-outline-dark" role="button" aria-pressed="true">Resume</a>
         </div>
       </div>
-      <ParticlesBg type="cobweb" bg />
+      <ParticlesBg num={20} type="cobweb" bg />
     </>
   );
 }

@@ -7,7 +7,7 @@
 - React
 - Bootstrap
 - EmailJS
-- ParticleJS
+- Particles-Bg
 - JavaScript
 - Node
 
